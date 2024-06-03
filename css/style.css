@@ -1,0 +1,166 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidebar{
+    width: 100vh;
+}
+   #side_nav{
+    background: #007a06;
+    min-width: 300px; 
+    max-width: 300px;
+    transition: all 0.3s;
+    float: right;
+   }
+   .content{
+      min-height: 100vh;
+      width: 100%;
+      background-image: url('images/bg.jpg');
+     
+   }
+   hr.h-color{
+     background: #eee;
+   }
+   
+   .sidebar li.active{
+      background: #eee;
+      border-radius: 8px;
+   }
+   
+   .sidebar li.active a, .sidebar li.active a:hover {
+    color: #000;
+   }
+   .sidebar li a{
+    color: #fff;
+   }
+   .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   }
+  .name{
+    font-family: Arial Black, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #132a13;
+  }
+  .h1{
+      font-family: "Pacifico", cursive;
+      font-weight: 400;
+      font-style: normal;
+      display: flex;
+      justify-content: center;
+      color: #fcffde;
+    }
+  .log{
+    display: flex;
+    justify-content: center;
+    font-family: Arial Black, Helvetica, sans-serif;
+    color: #fcffde;
+    margin-top: 2px;
+  }
+  .email{
+      padding: 20px 0px;	
+      position: relative;	
+  }
+  .input-email{
+  border: none;
+	border-bottom: 2px solid #000000;
+	background: none;
+	font-size: 16px;
+	padding-left: 24px;
+	font-weight: 400;
+	transition: .2s;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fcffde;
+  .input-email:active,
+  .input-email:focus,
+ .input-.email {
+	outline: none;
+	border-bottom-color: #fcffde;
+}
+
+  }
+  .login__icon {
+    position: relative;
+    top: 30px;
+    color: #eee;
+    
+  }
+  .log-in-btn{
+    border-radius: 2rem;
+    background-color: #fcffde;
+    border-color: #fcffde;
+    font-family: Arial Black, Helvetica, sans-serif;
+  }
+  .welcome{
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+  }
+.srvc{
+  font-family: Arial Black, Helvetica, sans-serif;
+  color: #132a13;
+}
+.card{
+  background-color: #fcffde;
+  color: #000000;
+}
+.card-icon{
+  position: relative;
+  top: 30px;
+  right:50px;
+}
+.card-title{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.form-label{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #132a13;
+}
+.input-d{
+  border: 1px solid #132a13;
+  background-color: #fff2e1;
+  font-size: 16px;
+}
+.pi{
+  font-family: Arial Black, Helvetica, sans-serif;
+  font-weight: bolder;
+  color:#132a13
+}
+.next{
+  background-color: #132a13;
+  color: #fcffde;
+  border-radius: 1rem;
+  font-size: 18px;
+  font-family: Arial Black, Helvetica, sans-serif;
+  float: right;
+}
+.file{
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #132a13;
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+   
+   @media(max-width: 767px){
+    #side_nav{
+      margin-left: -250px;
+      position: absolute;
+      min-height: 100vh;
+      z-index: 1;
+   
+    }
+    #side_nav.active{
+      margin-left: 0;
+     }
+   }
+   
